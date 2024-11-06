@@ -13,6 +13,8 @@ export class SubjectComponent implements OnInit {
     constructor(){
       let obs = new Subject();
       
+
+      
       obs.subscribe(res=>{
         this.lstStr.push(res)
        // console.log('subscription a :', res); // subscription a : 0.91767565496093
