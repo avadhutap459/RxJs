@@ -13,6 +13,18 @@ import { TakeWhileOperatorComponent } from './pages/take-while-operator/take-whi
 import { SkipOperatorComponent } from './pages/skip-operator/skip-operator.component';
 import { SkipLastOperatorComponent } from './pages/skip-last-operator/skip-last-operator.component';
 import { SkipUntilOperatorComponent } from './pages/skip-until-operator/skip-until-operator.component';
+import { DistinctOperatorComponent } from './pages/distinct-operator/distinct-operator.component';
+import { DistinctUntilChangedOperatorComponent } from './pages/distinct-until-changed-operator/distinct-until-changed-operator.component';
+import { FilterOperatorComponent } from './pages/filter-operator/filter-operator.component';
+import { FirstOperatorComponent } from './pages/first-operator/first-operator.component';
+import { LastOperatorComponent } from './pages/last-operator/last-operator.component';
+import { ElementAtOperatorComponent } from './pages/element-at-operator/element-at-operator.component';
+import { IgnoreElementOperatorComponent } from './pages/ignore-element-operator/ignore-element-operator.component';
+import { SingleOperatorComponent } from './pages/single-operator/single-operator.component';
+import { MapOperatorComponent } from './pages/map-operator/map-operator.component';
+import { MapToOperatorComponent } from './pages/map-to-operator/map-to-operator.component';
+import { AjaxOperatorComponent } from './pages/ajax-operator/ajax-operator.component';
+import { MergeMapOperatorComponent } from './pages/merge-map-operator/merge-map-operator.component';
 
 const routes: Routes = [
   {
@@ -28,7 +40,19 @@ const routes: Routes = [
       {path:'TakeWhile',component:TakeWhileOperatorComponent},
       {path:'Skip',component:SkipOperatorComponent},
       {path:'SkipLast',component:SkipLastOperatorComponent},
-      {path:'SkipUntil',component:SkipUntilOperatorComponent}
+      {path:'SkipUntil',component:SkipUntilOperatorComponent},
+      {path:'Distinct',component:DistinctOperatorComponent},
+      {path:'DistinctUntilChanged',component:DistinctUntilChangedOperatorComponent},
+      {path:'Filter',component:FilterOperatorComponent},
+      {path:'First',component:FirstOperatorComponent},
+      {path:'Last',component:LastOperatorComponent},
+      {path:'ElementAt',component:ElementAtOperatorComponent},
+      {path:'IgnoreElement',component:IgnoreElementOperatorComponent},
+      {path:'Single',component:SingleOperatorComponent},
+      {path:'Map',component:MapOperatorComponent},
+      {path:'MapTo',component:MapToOperatorComponent},
+      {path:'Ajax',component:AjaxOperatorComponent},
+      {path:'MergeMap',component:MergeMapOperatorComponent}
     ]
   }
 ];
